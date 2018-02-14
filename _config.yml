@@ -17,13 +17,17 @@ title: "AdUmbria"
 description: "Sito tematico dedicato all'Agenda digitale dell'Umbria"
 baseurl: /adumbria-blog
 url: https://regioneumbria.github.io
-locale: it
-minimal_mistakes_skin: contrast
 head_scripts:
 repository: RegioneUmbria/adumbria-blog
-twitter_username: @AdUmbria
-github_username: @RegioneUmbria
-email: agendadigitale@regione.umbria.it
+twitter_username: "AdUmbria"
+github_username: "RegioneUmbria"
+email: "agendadigitale@regione.umbria.it"
+
+locale: it
+minimal_mistakes_skin: "contrast"
+breadcrumbs: true
+search: true
+search_full_content: false
 
 # Build settings
 markdown: kramdown
@@ -48,7 +52,7 @@ author:
   name   : "Regione Umbria"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Agenda digitale dell'Umbria"
-  email  : agendadigitale@regione.umbria.it
+  email  : "agendadigitale@regione.umbria.it"
   uri    : "https://www.regione.umbria.it"
 
 # Exclude from processing.
