@@ -68,14 +68,27 @@ author:
 #   - vendor/ruby/
 
 defaults:
+# _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      toc: true
   # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
+      author_profile: false
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
+  # _foo
+  - scope:
+      path: ""
+      type: foo
+    values:
+      layout: single
