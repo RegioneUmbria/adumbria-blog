@@ -19,9 +19,10 @@ baseurl: /adumbria-blog
 url: https://regioneumbria.github.io
 locale: it
 minimal_mistakes_skin: contrast
-
-twitter_username: AdUmbria
-github_username: RegioneUmbria
+head_scripts:
+repository: RegioneUmbria/adumbria-blog
+twitter_username: @AdUmbria
+github_username: @RegioneUmbria
 email: agendadigitale@regione.umbria.it
 
 # Build settings
