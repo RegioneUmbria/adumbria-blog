@@ -19,8 +19,7 @@ baseurl: /adumbria-blog
 url: https://regioneumbria.github.io
 locale: it
 minimal_mistakes_skin: contrast
-head_scripts:
-repository: RegioneUmbria/adumbria-blog
+
 twitter_username: AdUmbria
 github_username: RegioneUmbria
 email: agendadigitale@regione.umbria.it
@@ -28,12 +27,12 @@ email: agendadigitale@regione.umbria.it
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -48,7 +47,7 @@ author:
   name   : "Regione Umbria"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Agenda digitale dell'Umbria"
-  email  : # optional
+  email  : agendadigitale@regione.umbria.it
   uri    : "https://www.regione.umbria.it"
 
 # Exclude from processing.
