@@ -23,7 +23,7 @@ baseurl: /adumbria-blog
 url: https://regioneumbria.github.io/adumbria-blog/
 twitter_username: AdUmbria
 github_username: RegioneUmbria
-minimal_mistakes_skin: red
+minimal_mistakes_skin: air
 
 # Build settings
 markdown: kramdown
