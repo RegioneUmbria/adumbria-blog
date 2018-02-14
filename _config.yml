@@ -13,17 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: AdUmbria
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: "AdUmbria"
+description: "Sito tematico dedicato all'Agenda digitale dell'Umbria"
 baseurl: /adumbria-blog
 url: https://regioneumbria.github.io
+locale: it
+minimal_mistakes_skin: contrast
+head_scripts:
+repository: RegioneUmbria/adumbria-blog
 twitter_username: AdUmbria
 github_username: RegioneUmbria
-minimal_mistakes_skin: contrast
+email: agendadigitale@regione.umbria.it
 
 # Build settings
 markdown: kramdown
