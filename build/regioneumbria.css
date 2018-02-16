@@ -13,8 +13,9 @@
 .t-Pac .Header-searchTrigger button{background-color:#B3292E;}
 .t-Pac .Entrypoint-item{background-color:#B3292E!important;}
 .t-Pac .Footer-socialIcons [class*=" Icon-"]{background-color:#B3292E;color:#FFFFFF;}
-.t-Pac .u-color-50 a{color:#B3292E;}
+.t-Pac .u-color-50{color:#B3292E;}
 /* grigio medio */
+.t-Pac .u-background-70{background-color:#666666!important;}
 .t-Pac .u-background-95{background-color:#666666!important;}
 /* grigio chiaro */
 .t-Pac .Offcanvas-toggleContainer{background-color:#A8A8A8;}
