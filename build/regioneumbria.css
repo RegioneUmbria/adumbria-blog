@@ -9,9 +9,11 @@
 .t-Pac .Header-banner{background-color:#333333;}
 .t-Pac .Header-languages{background-color:#333333;}
 .t-Pac .ScrollTop{background-color:#333333!important;}
+.t-Pac .is-focus{color:#333333!important;}
 /* rosso mattone */
 .t-Pac .Header-navbar{background-color:#B3292E;}
 .t-Pac .Header-searchTrigger button{background-color:#B3292E;}
+.t-Pac .Megamenu--default{background-color:#B3292E;}
 .t-Pac .Entrypoint-item{background-color:#B3292E!important;}
 .t-Pac .Footer-socialIcons [class*=" Icon-"]{background-color:#B3292E;color:#FFFFFF;}
 .t-Pac .u-color-50{color:#B3292E!important;}
