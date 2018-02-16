@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- <link rel="preload" href="{{ '/build/IWT.min.js' | path }}" as="script"> -->
-  <link href='//fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700,' rel='stylesheet' type='text/css' />
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700,' rel='stylesheet' type='text/css' />
   <!--
     in alternativa dal repository locale (src/fonts) oppure:
   <script type="text/javascript">
@@ -59,7 +59,7 @@
   <!-- sostituire questo percorso con quello degli assets javascript nel proprio sito web:
     è il percorso, relativo alla webroot, della directory che contiene il file IWT.min.js e i file *.chunk.js -->
   {# path filter adds '.html' to the path, hence the need for replace #}
-  <script>__PUBLIC_PATH__ = '{{ '/build/' | path | replace(".html", "/") }}'</script>
+  <script>__PUBLIC_PATH__ = '{{ '/adumbria-blog/' | path | replace(".html", "/") }}'</script>
 
   <script src="{{ '/build/IWT.min.js' | path }}"></script>
 
