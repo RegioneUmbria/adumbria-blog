@@ -21,10 +21,4 @@
 /* grigio chiaro */
 .t-Pac .Offcanvas-toggleContainer{background-color:#A8A8A8;}
 
-.t-Pac .Header-logo img{width:20rem;height:9rem;}
-.t-Pac .Headroom--pinned.Headroom--not-top .Header-logo img{max-width:6.2em;max-height:3em;}
-
-.t-Pac .Header-titleLink{padding-left:100px;}
-.t-Pac .Headroom--fixed.Headroom--not-top .Header-titleLink{padding-left:20px;}
 .t-Pac .Header-titleLink a{font-size:2.6rem!important;}
-.t-Pac .u-md-inline a{padding-left:9rem;}
