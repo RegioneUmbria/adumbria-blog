@@ -5,15 +5,13 @@
   --Color-primary: #B7282E;
 }
 
-.t-Pac {
-  /* grigio scuro */
-  .Header-banner{background-color:#333333;}
-  .Header-languages{background-color:#333333;}
-  /* rosso mattone */
-  .Header-navbar{background-color: #B7282E;}
-  .Header-searchTrigger button{background-color:#B7282E;}
-  /* grigio medio */
-  .u-background-95 {background-color:#666666;}
-  /* grigio chiaro */
-  /* #A8A8A8 */
-}
+/* grigio scuro */
+.t-Pac .Header-banner{background-color:#333333;}
+.t-Pac .Header-languages{background-color:#333333;}
+/* rosso mattone */
+.t-Pac .Header-navbar{background-color:#B3292E;}
+.t-Pac .Header-searchTrigger button{background-color:#B3292E;}
+/* grigio medio */
+.t-Pac .u-background-95 {background-color:#666666;}
+/* grigio chiaro */
+/* #A8A8A8 */
