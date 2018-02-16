@@ -4,3 +4,7 @@
 :root {
   --Color-primary: #B7282E;
 }
+
+.t-Pac .Header-banner{background-color:#575656}
+.t-Pac .Header-navbar {background-color: #B7282E;}
+.t-Pac .Header-searchTrigger button{background-color:#B7282E;}
