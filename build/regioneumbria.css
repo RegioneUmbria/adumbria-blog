@@ -13,7 +13,8 @@
 .t-Pac .Header-searchTrigger button{background-color:#B3292E;}
 .t-Pac .Entrypoint-item{background-color:#B3292E!important;}
 .t-Pac .Footer-socialIcons [class*=" Icon-"]{background-color:#B3292E;color:#FFFFFF;}
-.t-Pac .u-color-50{color:#B3292E;}
+.t-Pac .u-color-50{color:#B3292E!important;}
+.t-Pac .u-background-50{background-color:#B3292E!important;}
 /* grigio medio */
 .t-Pac .u-background-70{background-color:#666666!important;}
 .t-Pac .u-background-95{background-color:#666666!important;}
