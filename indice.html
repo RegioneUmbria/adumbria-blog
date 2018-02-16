@@ -10,58 +10,20 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- <link rel="preload" href="{{ '/build/IWT.min.js' | path }}" as="script"> -->
+  <!-- <link rel="preload" href="../build/IWT.min.js" as="script"> -->
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700,' rel='stylesheet' type='text/css' />
-  <!--
-    in alternativa dal repository locale (src/fonts) oppure:
-  <script type="text/javascript">
-    WebFontConfig = {
-      google: {
-        families: ['Titillium+Web:300,400,600,700,400italic:latin']
-      }
-    };
-    (function() {
-      var wf = document.createElement('script');
-      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-      wf.type = 'text/javascript';
-      wf.async = 'true';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wf, s);
-    })();
-  </script>
-  -->
 
   <!-- include HTML5shim per Explorer 8 -->
-  <script src="{{ '/build/vendor/modernizr.js' | path }}"></script>
+  <script src="../build/vendor/modernizr.js"></script>
 
-  <link media="all" rel="stylesheet" href="{{ '/build/build.css' | path }}">
+  <link media="all" rel="stylesheet" href="../build/build.css">
 
-  <script src="{{ '/build/vendor/jquery.min.js' | path }}"></script>
+  <script src="../build/vendor/jquery.min.js"></script>
 
   <title>AdUmbria Preview Layout</title>
 </head>
 
 <body class="t-Pac">
-
-  {{ yield|safe }}
-
-  <!--[if IE 8]>
-  <script src="{{ '/build/vendor/respond.min.js' | path }}"></script>
-  <script src="{{ '/build/vendor/rem.min.js' | path }}"></script>
-  <script src="{{ '/build/vendor/selectivizr.js' | path }}"></script>
-  <script src="{{ '/build/vendor/slice.js' | path }}"></script>
-  <![endif]-->
-
-  <!--[if lte IE 9]>
-  <script src="{{ '/build/vendor/polyfill.min.js' | path }}"></script>
-  <![endif]-->
-
-  <!-- sostituire questo percorso con quello degli assets javascript nel proprio sito web:
-    è il percorso, relativo alla webroot, della directory che contiene il file IWT.min.js e i file *.chunk.js -->
-  {# path filter adds '.html' to the path, hence the need for replace #}
-  <script>__PUBLIC_PATH__ = '{{ '/adumbria-blog/' | path | replace(".html", "/") }}'</script>
-
-  <script src="{{ '/build/IWT.min.js' | path }}"></script>
 
   <div id="cookie-bar" class="CookieBar js-CookieBar u-background-95 u-padding-r-all" aria-hidden="true">
     <p class="u-color-white u-text-r-xs u-lineHeight-m u-padding-r-bottom">Questo sito utilizza cookie tecnici, analytics e di terze parti.
@@ -832,6 +794,24 @@
 </a>
 
 </div>
+
+  <!--[if IE 8]>
+  <script src="../build/vendor/respond.min.js"></script>
+  <script src="../build/vendor/rem.min.js"></script>
+  <script src="../build/vendor/selectivizr.js"></script>
+  <script src="../build/vendor/slice.js"></script>
+  <![endif]-->
+
+  <!--[if lte IE 9]>
+  <script src="../build/vendor/polyfill.min.js"></script>
+  <![endif]-->
+
+  <!-- sostituire questo percorso con quello degli assets javascript nel proprio sito web:
+    è il percorso, relativo alla webroot, della directory che contiene il file IWT.min.js e i file *.chunk.js -->
+
+  <script>__PUBLIC_PATH__ = '../build/'</script>
+
+  <script src="../build/IWT.min.js"></script>
 
 </body>
 </html>
