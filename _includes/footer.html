@@ -1,45 +1,127 @@
-<!-- Footer -->
 
-<hr>
+    <div class="u-background-95 u-hiddenPrint">
+        <div class="u-layout-wide u-layoutCenter u-layout-r-withGutter">
+            <footer class="Footer u-background-95">
 
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <ul class="list-inline text-center">
-          {% if site.twitter_username %}
-          <li class="list-inline-item">
-            <a href="https://www.twitter.com/{{ site.twitter_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.facebook_username %}
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com/{{ site.facebook_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.github_username %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
-      </div>
+                <div class="u-cf">
+                    <img class="Footer-logo" src="assets/images/20180220_logo_regione_bianco.png" alt="Logo Regione Umbria">
+                    <p class="Footer-siteName">
+                        Regione Umbria<br>
+                        <small>Sito tematico dedicato all'Agenda digitale dell'Umbria</small>
+                    </p>
+                </div>
+
+                <div class="Grid Grid--withGutter">
+
+                    <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+                        <h2 class="Footer-blockTitle">Argomento 1</h2>
+                        <ul>
+                            <li><a href="">blanditiis soluta exercitationem</a></li>
+                            <li><a href="">voluptatem eligendi laboriosam</a></li>
+                            <li><a href="">laboriosam porro dolor</a></li>
+                            <li><a href="">sed et velit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+                        <h2 class="Footer-blockTitle">Argomento 2</h2>
+                        <ul>
+                            <li><a href="">blanditiis soluta exercitationem</a></li>
+                            <li><a href="">voluptatem eligendi laboriosam</a></li>
+                            <li><a href="">laboriosam porro dolor</a></li>
+                            <li><a href="">sed et velit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+                        <h2 class="Footer-blockTitle">Argomento 3</h2>
+                        <ul>
+                            <li><a href="">blanditiis soluta exercitationem</a></li>
+                            <li><a href="">voluptatem eligendi laboriosam</a></li>
+                            <li><a href="">laboriosam porro dolor</a></li>
+                            <li><a href="">sed et velit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+                        <h2 class="Footer-blockTitle">Argomento 4</h2>
+                        <ul>
+                            <li><a href="">blanditiis soluta exercitationem</a></li>
+                            <li><a href="">voluptatem eligendi laboriosam</a></li>
+                            <li><a href="">laboriosam porro dolor</a></li>
+                            <li><a href="">sed et velit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+                        <h2 class="Footer-blockTitle">Contatti</h2>
+                        <div class="Footer-subBlock">
+                            <h3 class="Footer-subTitle">Recapiti</h3>
+                            <address>
+          Via autem reiciendis maiores<br>
+          autem reiciendis maiores<br>
+          Tel. (+00) 00.0000.0000
+        </address>
+                        </div>
+                    </div>
+
+                    <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+                        <h2 class="Footer-blockTitle">Contatti</h2>
+                        <div class="Footer-subBlock">
+                            <h3 class="Footer-subTitle">Recapiti</h3>
+                            <address>
+          Via blanditiis soluta exercitationem<br>
+          blanditiis soluta exercitationem<br>
+          Tel. (+00) 00.0000.0000
+        </address>
+                        </div>
+                    </div>
+
+                    <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+                        <h2 class="Footer-blockTitle">Contatti</h2>
+                        <div class="Footer-subBlock">
+                            <h3 class="Footer-subTitle">Indirizzo PEC</h3>
+                            <p><a href="">indirizzo.pec@gov.it</a></p>
+                        </div>
+                    </div>
+
+                    <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+                        <h2 class="Footer-blockTitle">Seguici su</h2>
+                        <div class="Footer-subBlock">
+                            <ul class="Footer-socialIcons">
+                                {% if site.facebook_username %}
+                                <li><a href="https://www.facebook.com/{{ site.facebook_username }}"><span class="Icon Icon-facebook"></span><span class="u-hiddenVisually">Facebook</span></a></li>
+                                {% endif %}
+                                {% if site.twitter_username %}
+                                <li><a href="https://www.twitter.com/{{ site.twitter_username }}"><span class="Icon Icon-twitter"></span><span class="u-hiddenVisually">Twitter</span></a></li>
+                                {% endif %}
+                                {% if site.youtube_username %}
+                                <li><a href="https://youtube.com/{{ site.youtube_username }}"><span class="Icon Icon-youtube"></span><span class="u-hiddenVisually">Youtube</span></a></li>
+                                {% endif %}
+                                {% if site.github_username %}
+                                <li><a href="https://github.com/{{ site.github_username }}"><span class="Icon Icon-github"></span><span class="u-hiddenVisually">GitHub</span></a></li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <ul class="Footer-links u-cf">
+                    <li><a href="" title="Privacy policy">Privacy</a></li>
+                    <li><a href="" title="Note legali">Note legali</a></li>
+                    <li><a href="" title="Contatti">Contatti</a></li>
+                    <li>autem reiciendis maiores</li>
+                </ul>
+
+            </footer>
+
+        </div>
     </div>
-  </div>
-</footer>
+
+    <a href="#" title="torna all'inizio del contenuto" class="ScrollTop js-scrollTop js-scrollTo">
+  <i class="ScrollTop-icon Icon-collapse" aria-hidden="true"></i>
+  <span class="u-hiddenVisually">torna all'inizio del contenuto</span>
+</a>
+
+</div>

@@ -1,0 +1,11 @@
+- entrypoint: 1
+  - title: "Link in evidenza 1"
+    url: /collection-archive/
+  - title: "Link in evidenza 2"
+    url: /page-archive/
+- entrypoint: 2
+  - title: "Link in evidenza 3"
+    url: /categories/
+- entrypoint: 3
+  - title: "Link in evidenza 4"
+    url: /tags/

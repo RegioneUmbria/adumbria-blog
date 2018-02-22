@@ -1,1 +1,2 @@
-# adumbria-blog
+# Italia Design Web Toolkit Theme
+# - adumbria-blog

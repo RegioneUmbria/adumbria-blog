@@ -1,0 +1,53 @@
+- title: "A est rerum"
+  url: /collection-archive/
+  dropdown:
+  - title: "AUTEM REICIENDIS MAIORES"
+    url: /page-archive/
+  - title: "BLANDIS SOLUTA EXERCITATIONEM"
+    url: /page-archive/
+  - title: "VOLUPTATEM ELIGENDI LABORIOSAM"
+    url: /page-archive/
+    dropdown:
+      - title: "Laboriosam porro dolor"
+        url: /page-archive/
+      - title: "Sed et velit"
+        url: /page-archive/
+      - title: Autem quae numquam
+        url: /page-archive/
+      - title: "Nulla quibusdam necessitatibus"
+        url: /page-archive/
+
+- title: "Voluptatibus esse corporis"
+  url: /page-archive/
+  dropdown:
+  - title: "VOLUPTATEM ELIGENDI LABORIOSAM"
+    url: /page-archive/
+
+  - title: "BLANDIS SOLUTA EXERCITATIONEM"
+    url: /page-archive/
+
+  - title: "AUTEM REICIENDIS MAIORES"
+    url: /page-archive/
+    dropdown:
+      - title: Autem quae numquam
+        url: /page-archive/
+      - title: "Sed et velit"
+        url: /page-archive/
+      - title: "Laboriosam porro dolor"
+        url: /page-archive/
+
+  - title: "NULLA QUIBUSDAM NECESSITATIBUS"
+    url: /page-archive/
+
+  - title: "VOLUPTATIBUS ESSE CORPORIS"
+    url: /page-archive/
+    dropdown:
+      - title: "Rem similique expedita"
+        url: /page-archive/
+      - title: "Autem reciciendis maiores"
+        url: /page-archive/
+      - title: Autem quae numquam
+        url: /page-archive/
+    
+- title: "Reiciendis maiores"
+  url: /categories/
