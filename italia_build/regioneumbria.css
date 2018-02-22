@@ -15,7 +15,6 @@
 .t-Pac .Header-searchTrigger button{background-color:#B3292E;}
 .t-Pac .Megamenu--default{background-color:#B3292E;}
 .t-Pac .Entrypoint-item{background-color:#B3292E!important;}
-.t-Pac .Footer-socialIcons [class*=" Icon-"]{background-color:#B3292E;color:#FFFFFF;}
 .t-Pac .u-color-50{color:#B3292E!important;}
 .t-Pac .u-color-70{color:#B3292E!important;}
 .t-Pac .u-background-50{background-color:#B3292E!important;}
@@ -25,7 +24,10 @@
 /* grigio chiaro */
 .t-Pac .Offcanvas-toggleContainer{background-color:#A8A8A8;}
 
-/* blue link */
+/* azzurro */
+.t-Pac .Footer-socialIcons [class*=" Icon-"]{background-color:#06c;color:#666666;}
+
+/* azzurro link */
 .t-Pac h3 .u-color-black{color:#06c!important;}
 .t-Pac .LinkList a{color:#06c!important;}
 .t-Pac .Leads-link.u-color-black{color:#06c!important;}
