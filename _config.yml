@@ -1,6 +1,5 @@
-title:             Italia Design Web Toolkit Theme
-description:       A Jekill Theme derived from Start Bootstrap
-author:            Giovanni Gentili
+title:             "Italia Design Web Toolkit Jekyll Theme by G.Gentili 2018"
+description:       "A jekyll theme derived from Clean Blog by Start Bootstrap"
 email:             your-email@example.com
 baseurl:           "/"
 url:               "http://abc.github.io"
@@ -10,7 +9,6 @@ facebook_username: abc
 twitter_username:  abc
 youtube_username: abc
 github_username: "RegioneUmbria"
-repository: RegioneUmbria/adumbria-blog
 
 # Build settings
 # permalink: /:categories/:title/
