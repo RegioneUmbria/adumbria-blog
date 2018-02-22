@@ -1,18 +1,18 @@
 
   <!--[if IE 8]>
-  <script src="italia_build/vendor/respond.min.js"></script>
-  <script src="italia_build/vendor/rem.min.js"></script>
-  <script src="italia_build/vendor/selectivizr.js"></script>
-  <script src="italia_build/vendor/slice.js"></script>
+  <script src="{{ "italia_build/vendor/respond.min.js" | relative_url }}"></script>
+  <script src="{{ "italia_build/vendor/rem.min.js" | relative_url }}"></script>
+  <script src="{{ "italia_build/vendor/selectivizr.js" | relative_url }}"></script>
+  <script src="{{ "italia_build/vendor/slice.js" | relative_url }}"></script>
   <![endif]-->
 
   <!--[if lte IE 9]>
-  <script src=".italia_build/vendor/polyfill.min.js"></script>
+  <script src="{{ "italia_build/vendor/polyfill.min.js" | relative_url }}"></script>
   <![endif]-->
 
   <!-- sostituire questo percorso con quello degli assets javascript nel proprio sito web:
     è il percorso, relativo alla webroot, della directory che contiene il file IWT.min.js e i file *.chunk.js -->
 
-  <script>__PUBLIC_PATH__ = 'italia_build/'</script>
+  <script>__PUBLIC_PATH__ = '{{ "italia_build/" | relative_url }}'</script>
 
-  <script src="italia_build/IWT.min.js"></script>
+  <script src="{{ "italia_build/IWT.min.js" | relative_url }}""></script>

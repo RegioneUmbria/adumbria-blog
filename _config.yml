@@ -1,14 +1,36 @@
 title:             "Italia Design Web Toolkit Jekyll Theme by G.Gentili 2018"
 description:       "A jekyll theme derived from Clean Blog by Start Bootstrap"
-email:             your-email@example.com
 baseurl:           "/"
 url:               "http://abc.github.io"
 
-# Social Profiles
-facebook_username: abc
-twitter_username:  abc
-youtube_username: abc
-github_username: "RegioneUmbria"
+# Header data
+header_logo: assets/images/LogoRegione85x96.svg
+header_title: "Nome ente o titolo del sito"
+header_subtitle: "sito tematico"
+search: true
+search_full_content: false
+
+# Social profiles
+medium_username: abcuser
+facebook_username: abcuser
+twitter_username:  abcuser
+youtube_username: abcuser
+linkedin_username: company/abcuser
+github_username: abcuser
+
+# Footer data
+footer_logo: assets/images/20180220_logo_regione_bianco.png
+footer_title: "Nome ente"
+footer_subtitle: "Sottotitolo"
+recapiti1: Recapiti
+recapiti2: Via autem reiciendis maiores
+recapiti3: autem reiciendis maiores
+recapiti4: Tel. (+00) 00.0000.0000
+email: your-email@example.it
+pec: your-pec@example.it
+privacy_url: http://abc.github.io/privacy
+note_legali_url: http://abc.github.io/note_legali
+contatti_url: http://abc.github.io/contatti
 
 # Build settings
 # permalink: /:categories/:title/
@@ -18,9 +40,6 @@ paginate_path:     "/posts/page:num/"#
 plugins:
   - jekyll-feed
   - jekyll-paginate
-
-search: true
-search_full_content: false
 
 defaults:
 # _pages

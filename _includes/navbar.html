@@ -40,17 +40,21 @@
 
   <div class="Header-navbar ">
       <div class="u-layout-wide Grid Grid--alignMiddle u-layoutCenter">
+          {% if site.header_logo %}
           <div class="Header-logo Grid-cell" aria-hidden="true">
               <a href="/" tabindex="-1">
-        <img src="assets/images/LogoRegione85x96.svg" alt="Logo Regione Umbria">
+        <img src="{{ site.header_logo | relative_url }}" alt="Logo">
       </a>
           </div>
+          {% endif %}
 
           <div class="Header-title Grid-cell">
               <h1 class="Header-titleLink">
-                  <a href="/">
-          Agenda digitale dell'Umbria<br>
-          <small>sito tematico</small>
+                  <a href="/">{{ site.header_title }}
+                    {% if site.header_subtitle %}
+                    <br>
+                    <small>{{ site.header_subtitle}}</small>
+                    {% endif %}
         </a>
               </h1>
           </div>
@@ -66,6 +70,9 @@
               <div class="Header-social Headroom-hideme">
                   <p>Seguici su</p>
                   <ul class="Header-socialIcons">
+                      {% if site.medium_username %}
+                      <li><a href="https://www.medium.com/{{ site.facebook_username }}" title="Medium"><span class="Icon-medium"></span><span class="u-hiddenVisually">Facebook</span></a></li>
+                      {% endif %}
                       {% if site.facebook_username %}
                       <li><a href="https://www.facebook.com/{{ site.facebook_username }}" title="Facebook"><span class="Icon-facebook"></span><span class="u-hiddenVisually">Facebook</span></a></li>
                       {% endif %}
@@ -74,6 +81,9 @@
                       {% endif %}
                       {% if site.youtube_username %}
                       <li><a href="https://youtube.com/{{ site.youtube_username }}" title="Youtube"><span class="Icon-youtube"></span><span class="u-hiddenVisually">Youtube</span></a></li>
+                      {% endif %}
+                      {% if site.linkedin_username %}
+                      <li><a href="https://it.linkedin.com/{{ site.linkedin_username }}" title="Linkedin"><span class="Icon-linkedin"></span><span class="u-hiddenVisually">Facebook</span></a></li>
                       {% endif %}
                       {% if site.github_username %}
                       <li><a href="https://github.com/{{ site.github_username }}" title="GitHub"><span class="Icon-github"></span><span class="u-hiddenVisually">GitHub</span></a></li>
