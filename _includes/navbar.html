@@ -59,16 +59,18 @@
               </h1>
           </div>
 
+          {% if site.search %}
           <div class="Header-searchTrigger Grid-cell">
               <button aria-controls="header-search" class="js-Header-search-trigger Icon Icon-search " title="attiva il form di ricerca" aria-label="attiva il form di ricerca" aria-hidden="false">
-      </button>
+              </button>
               <button aria-controls="header-search" class="js-Header-search-trigger Icon Icon-close u-hidden " title="disattiva il form di ricerca" aria-label="disattiva il form di ricerca" aria-hidden="true">
-      </button>
+              </button>
           </div>
+          {% endif %}
 
           <div class="Header-utils Grid-cell">
               <div class="Header-social Headroom-hideme">
-                  <p>Seguici su</p>
+                  <p>{% if site.social_username %}Segui {{ site.social_username }} su{ else }Seguici su{ endif }</p>
                   <ul class="Header-socialIcons">
                       {% if site.medium_username %}
                       <li><a href="https://www.medium.com/{{ site.facebook_username }}" title="Medium"><span class="Icon-medium"></span><span class="u-hiddenVisually">Facebook</span></a></li>
