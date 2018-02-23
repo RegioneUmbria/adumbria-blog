@@ -1,5 +1,6 @@
 /* personalizzazione colori e stili del web toolkit italia.it */
-/* esempio regione umbria by gg 16.02.2018 */
+/* esempio colori "regione umbria" by gg 16.02.2018 */
+/* rimuovere questo file css per tornare ai colori standard */
 
 :root {
   --Color-primary: #B7282E;
@@ -15,6 +16,7 @@
 .t-Pac .Header-searchTrigger button{background-color:#B3292E;}
 .t-Pac .Megamenu--default{background-color:#B3292E;}
 .t-Pac .Entrypoint-item{background-color:#B3292E!important;}
+.t-Pac .Header-socialIcons [class*=" Icon-"]{color:#B3292E;}
 .t-Pac .u-color-50{color:#B3292E!important;}
 .t-Pac .u-color-70{color:#B3292E!important;}
 .t-Pac .u-background-50{background-color:#B3292E!important;}
