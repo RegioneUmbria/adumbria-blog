@@ -1,16 +1,19 @@
 title:             "Italia Design Web Toolkit Jekyll Theme by G.Gentili 2018"
 description:       "A jekyll theme derived from Clean Blog by Start Bootstrap"
 baseurl:           "/"
-url:               "http://abc.github.io"
+url:               "https://abc.github.io"
 
 # Header data
 header_parent_title: "Nome ente sovraordinato"
+header_parent_url: "http://entepubblico.it"
 header_language_selector: false
 header_logo: assets/images/LogoRegione85x96.svg
 header_title: "Nome ente o titolo del sito"
 header_subtitle: "sito tematico"
 search: false
 search_full_content: false
+mega_menu: false   # richiede _data/menu.yml
+mega_menu_accedi: false
 
 # Social profiles
 social_username: "&commat;AdUmbria"

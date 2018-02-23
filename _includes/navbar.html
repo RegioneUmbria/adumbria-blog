@@ -19,7 +19,7 @@
   <div class="Header-banner ">
       <div class="Header-owner Headroom-hideme ">
           {% if site.header_parent_title %}
-          <a href="http://www.regione.umbria.it"><span>{{ site.header_parent_title }}</span></a>
+          <a href="{{ site.header_parent_url }}"><span>{{ site.header_parent_title }}</span></a>
           {% endif %}
 
           {% if site.language_selector %}
@@ -77,7 +77,7 @@
 
           <div class="Header-utils Grid-cell">
               <div class="Header-social Headroom-hideme">
-                  <p>{% if site.social_username %}Segui {{ site.social_username }} su{% else %}Seguici su{% endif %}</p>
+                  <p>{% if site.social_username %}Segui {{ site.social_username }}{% else %}Seguici su{% endif %}</p>
                   <ul class="Header-socialIcons">
                       {% if site.medium_username %}
                       <li><a href="https://www.medium.com/{{ site.facebook_username }}" title="Medium"><span class="Icon-medium"></span><span class="u-hiddenVisually">Facebook</span></a></li>
@@ -114,25 +114,30 @@
               {% endif %}
           </div>
 
+          {% if site.mega_menu %}
           <div class="Header-toggle Grid-cell">
               <a class="Hamburger-toggleContainer js-fr-offcanvas-open u-nojsDisplayInlineBlock u-lg-hidden u-md-hidden" href="#menu" aria-controls="menu" aria-label="accedi al menu" title="accedi al menu">
-        <span class="Hamburger-toggle" role="presentation"></span>
-        <span class="Header-toggleText" role="presentation">Menu</span>
-      </a>
+                <span class="Hamburger-toggle" role="presentation"></span>
+                <span class="Header-toggleText" role="presentation">Menu</span>
+              </a>
           </div>
+          {% endif %}
 
       </div>
   </div>
   <!-- Header-navbar -->
 
+  {% if site.mega_menu %}
   <div class="Headroom-hideme u-textCenter u-hidden u-sm-hidden u-md-block u-lg-block">
 
       <nav class="Megamenu Megamenu--default js-megamenu " data-rel=".Offcanvas .Treeview"></nav>
 
   </div>
+  {% endif %}
 
 </header>
 
+{% if site.mega_menu %}
 <section class="Offcanvas Offcanvas--right Offcanvas--modal js-fr-offcanvas u-jsVisibilityHidden u-nojsDisplayNone u-hiddenPrint" id="menu">
   <h2 class="u-hiddenVisually">Menu di navigazione</h2>
   <div class="Offcanvas-content u-background-white">
@@ -192,11 +197,14 @@
                       </li>
                   </ul>
               </li>
+              {% if site.mega_menu_accedi %}
               <li data-megamenu-class="u-hidden">
                   <a class="Button u-border-none u-color-95 u-background-compl u-text-r-xxs" href="#">Accedi</a>
               </li>
+              {% endif %}
           </ul>
 
       </nav>
   </div>
 </section>
+{% endif %}
