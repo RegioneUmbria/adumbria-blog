@@ -4,20 +4,20 @@ baseurl:           "/"
 url:               "https://abc.github.io"
 
 # Header data
-header_parent_title: "Nome ente sovraordinato"
+header_parent_title: Nome ente sovraordinato
 header_parent_url: "http://entepubblico.it"
 header_language_selector: false
 header_logo: assets/images/LogoRegione85x96.svg
-header_title: "Nome ente o titolo del sito"
-header_subtitle: "sito tematico"
-search: false
+header_title: Nome ente o titolo del sito
+header_subtitle: sottotitolo
+search: true
 search_full_content: false
-mega_menu: false   # richiede _data/menu.yml
+mega_menu: true    # if true, require _data/menu.yml
 mega_menu_accedi: false
 
 # Social profiles
-social_block: false
-social_username: "&commat;AdUmbria"
+social_block: true
+social_username: "&commat;AdUmbria"    # short
 medium_username: abcuser
 facebook_username: abcuser
 twitter_username:  abcuser
@@ -27,17 +27,17 @@ github_username: abcuser
 
 # Footer data
 footer_logo: assets/images/20180220_logo_regione_bianco.png
-footer_title: "Nome ente"
-footer_subtitle: "Sottotitolo"
+footer_title: Nome ente
+footer_subtitle: sottotitolo
 recapiti1: Recapiti
 recapiti2: Via autem reiciendis maiores
 recapiti3: autem reiciendis maiores
 recapiti4: Tel. (+00) 00.0000.0000
 email: your-email@example.it
 pec: your-pec@example.it
-privacy_url: http://abc.github.io/privacy
-note_legali_url: http://abc.github.io/note_legali
-contatti_url: http://abc.github.io/contatti
+privacy_url: "http://abc.github.io/privacy"
+note_legali_url: "http://abc.github.io/note_legali"
+contatti_url: "http://abc.github.io/contatti"
 
 # Build settings
 # permalink: /:categories/:title/
