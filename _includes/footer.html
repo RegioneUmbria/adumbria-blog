@@ -16,6 +16,7 @@
                     </p>
                 </div>
 
+                {% if site.recapiti1 or site.recapiti2 or site.email or site.pec or site.social_block %}
                 <div class="Grid Grid--withGutter">
 <!--
                     <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
@@ -58,6 +59,7 @@
                         </ul>
                     </div>
 -->
+                    {% if site.recapiti1 or site.recapiti2 %}
                     <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
                         <h2 class="Footer-blockTitle">Contatti</h2>
                         <div class="Footer-subBlock">
@@ -69,7 +71,9 @@
                             </address>
                         </div>
                     </div>
+                    {% endif %}
 
+                    {% if site.email or site.pec %}
                     <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
                         <h2 class="Footer-blockTitle">&nbsp;</h2>
                         <div class="Footer-subBlock">
@@ -86,11 +90,9 @@
                             {% endif %}
                         </div>
                     </div>
+                    {% endif %}
 
-                    <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
-                    &nbsp;
-                    </div>
-
+                    {% if site.social_block %}
                     <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
                         <h2 class="Footer-blockTitle">{% if site.social_username %}Segui {{ site.social_username }}{% else %}Seguici su{% endif %}</h2>
                         <div class="Footer-subBlock">
@@ -116,8 +118,10 @@
                             </ul>
                         </div>
                     </div>
+                    {% endif %}
 
                 </div>
+                {% endif %}
 
                 <ul class="Footer-links u-cf">
                     {% if site.privacy_url %}

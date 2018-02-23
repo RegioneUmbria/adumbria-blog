@@ -16,6 +16,7 @@ mega_menu: false   # richiede _data/menu.yml
 mega_menu_accedi: false
 
 # Social profiles
+social_block: false
 social_username: "&commat;AdUmbria"
 medium_username: abcuser
 facebook_username: abcuser

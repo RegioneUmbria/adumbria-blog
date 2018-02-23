@@ -50,8 +50,8 @@
           {% if site.header_logo %}
           <div class="Header-logo Grid-cell" aria-hidden="true">
               <a href="/" tabindex="-1">
-        <img src="{{ site.header_logo | relative_url }}" alt="Logo">
-      </a>
+                <img src="{{ site.header_logo | relative_url }}" alt="Logo">
+              </a>
           </div>
           {% endif %}
 
@@ -62,7 +62,7 @@
                     <br>
                     <small>{{ site.header_subtitle}}</small>
                     {% endif %}
-        </a>
+                  </a>
               </h1>
           </div>
 
@@ -75,6 +75,7 @@
           </div>
           {% endif %}
 
+          {% if site.social_block %}
           <div class="Header-utils Grid-cell">
               <div class="Header-social Headroom-hideme">
                   <p>{% if site.social_username %}Segui {{ site.social_username }}{% else %}Seguici su{% endif %}</p>
@@ -99,6 +100,7 @@
                       {% endif %}
                   </ul>
               </div>
+              {% endif %}
 
               {% if site.search %}
               <div class="Header-search" id="header-search">
