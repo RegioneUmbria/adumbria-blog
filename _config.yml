@@ -4,10 +4,12 @@ baseurl:           "/"
 url:               "http://abc.github.io"
 
 # Header data
+header_parent_title: "Nome ente sovraordinato"
+header_language_selector: false
 header_logo: assets/images/LogoRegione85x96.svg
 header_title: "Nome ente o titolo del sito"
 header_subtitle: "sito tematico"
-search: true
+search: false
 search_full_content: false
 
 # Social profiles
@@ -16,7 +18,7 @@ medium_username: abcuser
 facebook_username: abcuser
 twitter_username:  abcuser
 youtube_username: abcuser
-linkedin_username: company/abcuser
+linkedin_username:
 github_username: abcuser
 
 # Footer data
